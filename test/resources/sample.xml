@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="ids.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<ids xmlns="http://standards.buildingsmart.org/IDS">
+    <info>
+        <title>Some Rule just for test</title>
+        <copyright></copyright>
+        <version></version>
+        <description></description>
+        <author>RezaRostaminikoo@gmail.com</author>
+        <date>2023-11-21</date>
+        <purpose></purpose>
+        <milestone></milestone>
+    </info>
+    <specifications>
+        <!-- here we want to check if there is a specific property -->
+        <specification name="wall type"
+            ifcVersion="IFC4">
+            <applicability>
+                <entity>
+                    <name>
+                        <simpleValue>WallType</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property datatype="">
+                    <propertySet>
+                        <simpleValue>myPropertySet_Name</simpleValue>
+                    </propertySet>
+                    <name>
+                        <simpleValue>myPropertyName</simpleValue>
+                    </name>
+                </property>
+            </requirements>
+        </specification>
+    </specifications>
+</ids>
