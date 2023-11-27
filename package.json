@@ -37,6 +37,7 @@
   "dependencies": {
     "@xmldom/xmldom": "^0.8.10",
     "deepmerge": "^4.3.1",
+    "ifc-schema-ts": "^2.0.0",
     "lodash": "^4.17.21",
     "predefined-ds": "^1.7.2"
   }

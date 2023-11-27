@@ -1,3 +1,4 @@
 export * from './IParser'
 export * from './IReporter'
-export * from './IRuler'
+export * from './IExaminer'
+export * from './IIfcModel'
